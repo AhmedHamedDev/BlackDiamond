@@ -9,6 +9,7 @@
  .homeButton{
     height: 55px;
     margin-top: 25px;
+    margin-bottom: 25px;
     background-color: aliceblue;
     border-color: aliceblue;
  }
@@ -51,7 +52,7 @@
  .visionStringDev p{
    color: aliceblue;
    font-style: italic;
-   font-size: 28px;
+   font-size: 3.5vh;
    text-align: justify;
    font-variant: small-caps;
    padding-right: 60px;
@@ -68,7 +69,6 @@
  }
 
  .cards{
-    min-height: 68vh;
     background-image: url("../../../../assets/images/background.jpg");
     background-repeat: no-repeat;
     background-size: cover;
@@ -77,5 +77,5 @@
 
  .fb-text{
    background-color: aliceblue;
-   padding: 60px 23px;
+   padding: 5vh 23px;
  }

@@ -27,8 +27,9 @@ app.post('/contactus', (req, res) => {
 
   let mailOptions = {
     from: body.email,
-    to: 'BlackDiamondWebsite123@gmail.com',
+    // to: 'BlackDiamondWebsite123@gmail.com',
     // to: 'Blackdiamondegy@gmail.com',
+     to: 'ahmedmostafa@blackdiamondegy.com',
     subject: body.subject,
     text: 
     `From: ${body.email} , 

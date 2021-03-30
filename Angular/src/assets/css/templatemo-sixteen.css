@@ -592,7 +592,7 @@ footer {
 
 footer .inner-content {
 	border-top: 1px solid #eee;
-	padding: 60px 0px;
+	padding: 2vh 0px;
 }
 
 footer .inner-content p {
@@ -795,6 +795,10 @@ footer .inner-content p a {
 .happy-clients {
 	margin-top: 100px;
 	margin-bottom: 40px;
+}
+
+.happy-clients .client-item{
+	height: 25vh;
 }
 
 .happy-clients .client-item img {

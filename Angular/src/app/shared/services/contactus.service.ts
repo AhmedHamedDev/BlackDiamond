@@ -6,7 +6,7 @@ import { HttpClient,HttpErrorResponse } from '@angular/common/http';
 })
 export class ContactusService {
 //private _contactUrl = "http://localhost:8000/"
-private _contactUrl = "http://127.0.0.1:3000/contactus"
+private _contactUrl = "https://blackdiamond-node.herokuapp.com/contactus"
  
   constructor(private _httpClient : HttpClient) { }
  
