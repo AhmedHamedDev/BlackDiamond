@@ -28,8 +28,10 @@ jQuery( document ).ready(function( $ ) {
 
           if (scroll >= box - header) {
             $("header").addClass("background-header");
+            document.getElementById("logo").src = "../../../../assets/images/blackDiamondLogo.png";
           } else {
             $("header").removeClass("background-header");
+            document.getElementById("logo").src = "../../../../assets/images/blackDiamondLogoLight.png";
           }
         });
         if ($('.owl-clients').length) {
